@@ -70,3 +70,43 @@ You may not use this project commercially, for sale, or for profit.
 
 Created by Greg, 2025
 
+# Third Project: Discord Bot
+
+## Project Structure
+
+```text
+Your main folder/
+└── PasswordGenerator/
+    ├── pass_generator.py
+    └── passwords.txt
+
+└── PasswordManager/
+    └── templates/
+        ├── base.html
+        ├── dashboard.html
+        ├── home.html
+        ├── login.html
+        ├── register.html
+
+    └── app.py
+
+└── DiscordBot/
+    └──.env
+    └──bot_logic.py
+    └──main.py
+
+
+```
+
+## How to get this project
+```text
+Option 1: Clone repository: git clone https://github.com/Grzegorz-coder-rgb/30_Days_with_Python
+Option 2: Download ZIP: Click Code → Download ZIP on GitHub
+```
+
+License
+
+You may not use this project commercially, for sale, or for profit.
+
+Created by Greg, 2025
+
