@@ -23,26 +23,26 @@ ext_to_folder = {
 
 files_by_ext = {ext: [] for ext in extension}
 
-for plik in folder.iterdir():
-    if plik.is_file:
-        ext = plik.suffix.lower()
+for file in folder.iterdir():
+    if file.is_file:
+        ext = file.suffix.lower()
 
         if ext in extension:
-            files_by_ext[ext].append(plik)
+            files_by_ext[ext].append(file)
 
-# Tworzymy foldery i przenosimy pliki do odpowiednich folderów w Downloads
-for ext, pliki in files_by_ext.items():
+# We create folders and move files to the appropriate folders in Downloads
+for ext, files in files_by_ext.items():
     # Pliki do kosza
     if ext in [".otf", ".ttf"]:
-        folder_docelowy = folder_bin
+        target_folder = folder_bin
     
     else:
         folder_name = ext_to_folder.get(ext, "Inne")
-        folder_docelowy = folder / folder_name
+        target_folder = folder / folder_name
 
-    folder_docelowy.mkdir(exist_ok=True)
+    target_folder.mkdir(exist_ok=True)
 
-    for plik in pliki:
-        plik.rename(folder_docelowy / plik.name)
+    for file in files:
+        file.rename(target_folder / file.name)
 
 print(files_by_ext)
