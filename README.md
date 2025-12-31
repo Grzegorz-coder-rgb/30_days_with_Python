@@ -1,157 +1,168 @@
-# First Project: Password Generator & Password Strength Checker
+# 🚀 30 Days with Python --- Projects Collection
 
-## Preview
+A collection of Python projects created during my learning journey.\
+Each project focuses on different areas such as security, automation,
+web development, data analysis, and Discord bots.
 
-You start the program and choose one of two options:
-- **Generate a new password** (and check its security)
-- **Check the security of your existing password**
+📌 **Author:** Greg\
+📅 **Year:** 2025\
+🐍 **Language:** Python
 
-### Generate password
-- The program generates a password
-- Then asks whether you want to save it to a file
+------------------------------------------------------------------------
 
-### Check password security
-- You enter your own password
-- You answer a few questions to evaluate its strength
+## 📂 Projects Overview
 
----
+-   🔐 Password Generator & Strength Checker\
+-   🗝️ Password Manager (Web App)\
+-   🤖 Discord Bot\
+-   🗂️ File Organizer\
+-   📊 Pandas Data Visualization Project
 
-## Project Structure
+------------------------------------------------------------------------
 
+## 🔐 Project 1: Password Generator & Password Strength Checker
 
-```text
-Your main folder/
-└── PasswordGenerator/
-    ├── pass_generator.py
-    └── passwords.txt
-```
+### 📖 Description
 
-## How to get this project
-```text
-Option 1: Clone repository: git clone https://github.com/Grzegorz-coder-rgb/30_Days_with_Python
-Option 2: Download ZIP: Click Code → Download ZIP on GitHub
-```
+A console-based application that allows you to: - Generate secure
+passwords - Check the strength of existing passwords - Optionally save
+generated passwords to a file
 
-License
+### 🧪 Features
 
-You may not use this project commercially, for sale, or for profit.
+-   Random password generation\
+-   Password strength evaluation\
+-   File saving option
 
-Created by Greg, 2025
+### 📁 Project Structure
 
-# Second Project: Password Manager
-<h2>You can keep your passwords in this app.</h2>
-
-```text
-Your main folder/
-└── PasswordGenerator/
+    PasswordGenerator/
     ├── pass_generator.py
     └── passwords.txt
 
-└── PasswordManager/
+------------------------------------------------------------------------
+
+## 🗝️ Project 2: Password Manager (Web Application)
+
+### 📖 Description
+
+A simple web-based password manager that allows users to: - Register and
+log in - Store and manage passwords - Use a clean HTML-based UI
+
+### 🧪 Features
+
+-   User authentication\
+-   Password storage\
+-   Flask-based backend\
+-   HTML templates
+
+### 📁 Project Structure
+
+    PasswordManager/
+    ├── app.py
     └── templates/
         ├── base.html
         ├── dashboard.html
         ├── home.html
         ├── login.html
-        ├── register.html
+        └── register.html
 
-    └── app.py
-```
+------------------------------------------------------------------------
 
-## How to get this project
-```text
-Option 1: Clone repository: git clone https://github.com/Grzegorz-coder-rgb/30_Days_with_Python
-Option 2: Download ZIP: Click Code → Download ZIP on GitHub
-```
+## 🤖 Project 3: Discord Bot
 
-License
+### 📖 Description
 
-You may not use this project commercially, for sale, or for profit.
+A multifunctional Discord bot built with `discord.py`.
 
-Created by Greg, 2025
+### 🧪 Features
 
-# Third Project: Discord Bot
+-   Welcome message on startup\
+-   Random number generator\
+-   Password generator\
+-   Tic-Tac-Toe game (PvP & AI)\
+-   Role management (Admin-only)
 
-You have to create .env file and save in it: DISCORD_TOKEN AND WELCOME_CHANNEL_ID
+### ⚙️ Configuration
 
-## Project Structure
+Create a `.env` file inside the `DiscordBot` folder with:
 
-```text
-Your main folder/
-└── PasswordGenerator/
-    ├── pass_generator.py
-    └── passwords.txt
+    DISCORD_BOT_TOKEN=your_token_here
+    WELCOME_CHANNEL_ID=your_channel_id_here
 
-└── PasswordManager/
-    └── templates/
-        ├── base.html
-        ├── dashboard.html
-        ├── home.html
-        ├── login.html
-        ├── register.html
+### 📁 Project Structure
 
-    └── app.py
-
-└── DiscordBot/
-    └──.env
-    └──bot_logic.py
-    └──main.py
-
-
-```
-
-## How to get this project
-```text
-Option 1: Clone repository: git clone https://github.com/Grzegorz-coder-rgb/30_Days_with_Python
-Option 2: Download ZIP: Click Code → Download ZIP on GitHub
-```
-
-License
-
-You may not use this project commercially, for sale, or for profit.
-
-Created by Greg, 2025
-
-# Fourth Project: File Organizer
-
-## Project Structure
-
-```text
-Your main folder/
-└── PasswordGenerator/
-    ├── pass_generator.py
-    └── passwords.txt
-
-└── PasswordManager/
-    └── templates/
-        ├── base.html
-        ├── dashboard.html
-        ├── home.html
-        ├── login.html
-        ├── register.html
-
-    └── app.py
-
-└── DiscordBot/
-    └──.env
-    └──bot_logic.py
-    └──main.py
-
-└── FileOrganizer/
+    DiscordBot/
+    ├── .env
+    ├── bot_logic.py
     └── main.py
 
+------------------------------------------------------------------------
 
-```
+## 🗂️ Project 4: File Organizer
 
-## How to get this project
-```text
-Option 1: Clone repository: git clone https://github.com/Grzegorz-coder-rgb/30_Days_with_Python
-Option 2: Download ZIP: Click Code → Download ZIP on GitHub
-```
+### 📖 Description
 
-License
+A Python script that automatically organizes files in a directory based
+on file type.
 
-You may not use this project commercially, for sale, or for profit.
+### 🧪 Features
 
-Created by Greg, 2025
+-   File sorting by extension\
+-   Automatic folder creation\
+-   Clean and simple logic
 
+### 📁 Project Structure
+
+    FileOrganizer/
+    └── main.py
+
+------------------------------------------------------------------------
+
+## 📊 Project 5: Pandas Tutorial --- Data Visualization
+
+### 📖 Description
+
+A beginner-friendly data analysis and visualization project using
+Pandas.
+
+### 🧪 Features
+
+-   CSV data loading\
+-   Data analysis\
+-   Basic visualizations
+
+### 📁 Project Structure
+
+    PandasTutorial/
+    ├── kodland_data.csv
+    └── main.py
+
+------------------------------------------------------------------------
+
+## 📥 How to Get the Projects
+
+### Option 1: Clone the Repository
+
+    git clone https://github.com/Grzegorz-coder-rgb/30_Days_with_Python
+
+### Option 2: Download ZIP
+
+-   Click **Code**
+-   Select **Download ZIP**
+
+------------------------------------------------------------------------
+
+## 📜 License
+
+This project is licensed for **educational and personal use only**.
+
+❌ Commercial use, resale, or profit-oriented usage is **not allowed**.
+
+------------------------------------------------------------------------
+
+## 🌟 Final Note
+
+This repository represents my progress in Python programming and
+software development.\
+More projects and improvements will be added over time 🚀
